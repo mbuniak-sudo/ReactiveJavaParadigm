@@ -22,7 +22,7 @@ public class OrderSearchService {
 
         if (StringUtils.isBlank(phoneNumber)) return Flux.error(new RuntimeException("Phone number is empty"));
 
-        return Flux.fromIterable(orderResource.getOrdersByPhone(phoneNumber))
+        return orderResource.getOrdersByPhone(phoneNumber)
                 .map(entity ->
                         new Order(entity.getPhoneNumber(), entity.getOrderNumber(), entity.getProductCode()))
                 .delayElements(Duration.ofMillis(randomInt()));

@@ -15,6 +15,11 @@ public class ProductResource {
 
 
     public List<Product> getProductNamesByProductCode(String productCode) {
-        return repo.findByProductCode(productCode);
+        return repo.findByProductCode(productCode)
+                .map(productEntity -> new Product(productEntity.getId_(),
+                        productEntity.getProductCode(), productEntity.getProductName(), productEntity.getScore()))
+                .collectList()
+                .block();
+        // bad reactive style to block smth, but just to correspond with higher defined api
     }
 }

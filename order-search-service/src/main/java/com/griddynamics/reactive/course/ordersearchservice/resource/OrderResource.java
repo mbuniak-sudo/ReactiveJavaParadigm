@@ -16,7 +16,7 @@ public class OrderResource {
     private final OrderRepository repository;
 
 
-    public List<Order> getOrdersByPhone(String phoneNumber) {
+    public Flux<Order> getOrdersByPhone(String phoneNumber) {
         return repository.findAllByPhoneNumber(phoneNumber);
     }
 }
