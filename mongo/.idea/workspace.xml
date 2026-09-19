@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd514b86-d1a2-47d8-a897-67f3fc9594ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../main-user-be/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/controller/OrderSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/controller/OrderSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/db/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/db/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/resource/OrderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/resource/OrderResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/service/OrderSearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/service/OrderSearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/db/ProductResourceRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/db/ProductResourceRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/orders.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-search-service/src/test/java/com/griddynamics/reactive/course/ordersearchservice/controller/OrderSearchControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/test/java/com/griddynamics/reactive/course/ordersearchservice/controller/OrderSearchControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/db/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/domain/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/db/ProductResourceRepo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/resource/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/resource/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/service/ProductInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/service/ProductInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product-info-service/src/test/java/com/griddynamics/reactive/course/productinfoservice/controller/ProductInfoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/src/test/java/com/griddynamics/reactive/course/productinfoservice/controller/ProductInfoControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,7 @@
       <updated>1788618272406</updated>
       <workItem from="1788618273573" duration="9792000" />
       <workItem from="1789154537116" duration="137000" />
-      <workItem from="1789154861480" duration="5162000" />
+      <workItem from="1789154861480" duration="7698000" />
     </task>
     <servers />
   </component>

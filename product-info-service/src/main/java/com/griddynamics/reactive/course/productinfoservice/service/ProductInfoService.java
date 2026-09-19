@@ -23,8 +23,8 @@ public class ProductInfoService {
     }
 
     private int randomInt() {
-        int min = 1000;
-        int max = 10000;
+        int min = 100;
+        int max = 300;
         return random.nextInt(max - min) + min;
     }
 }

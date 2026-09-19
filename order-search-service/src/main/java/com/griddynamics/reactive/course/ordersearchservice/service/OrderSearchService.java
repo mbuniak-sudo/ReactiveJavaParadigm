@@ -8,29 +8,21 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 
 import java.time.Duration;
-import java.util.Random;
 
 @Service
 @RequiredArgsConstructor
 public class OrderSearchService {
 
     private final OrderResource orderResource;
-    private final Random random = new Random();
 
 
     public Flux<Order> getOrdersByPhone(String phoneNumber) {
-
-        if (StringUtils.isBlank(phoneNumber)) return Flux.error(new RuntimeException("Phone number is empty"));
+        if (StringUtils.isBlank(phoneNumber))
+            return Flux.error(new RuntimeException("Phone number is empty"));
 
         return orderResource.getOrdersByPhone(phoneNumber)
                 .map(entity ->
                         new Order(entity.getPhoneNumber(), entity.getOrderNumber(), entity.getProductCode()))
-                .delayElements(Duration.ofMillis(randomInt()));
-    }
-
-    private int randomInt() {
-        int min = 100;
-        int max = 1000;
-        return random.nextInt(max - min) + min;
+                .delayElements(Duration.ofMillis(100));
     }
 }
