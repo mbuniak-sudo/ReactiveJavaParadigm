@@ -60,6 +60,7 @@ services:
       --file /src/data/orders.json
       --jsonArray
 
+
   order-search-service:
     build:
       context: ./order-search-service
@@ -75,3 +76,11 @@ services:
     image: product-info-service
     ports:
       - 8082:8080
+
+  main-user-be:
+    build:
+      context: ./main-user-be
+      dockerfile: Dockerfile
+    image: main-user-be
+    ports:
+      - 8083:8080
