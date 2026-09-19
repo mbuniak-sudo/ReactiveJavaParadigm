@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd514b86-d1a2-47d8-a897-67f3fc9594ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../main-user-be/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../main-user-be/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/domain/ProductEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/src/test/java/com/griddynamics/reactive/course/productinfoservice/controller/ProductInfoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/src/test/java/com/griddynamics/reactive/course/productinfoservice/controller/ProductInfoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <updated>1788618272406</updated>
       <workItem from="1788618273573" duration="9792000" />
       <workItem from="1789154537116" duration="137000" />
-      <workItem from="1789154861480" duration="8317000" />
+      <workItem from="1789154861480" duration="9897000" />
     </task>
     <servers />
   </component>

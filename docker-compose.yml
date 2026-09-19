@@ -66,8 +66,10 @@ services:
       context: ./order-search-service
       dockerfile: Dockerfile
     image: order-search-service
+    depends_on:
+      - mongo
     ports:
-      - 8081:8080
+      - "8081:8080"
 
   product-info-service:
     build:
@@ -75,12 +77,14 @@ services:
       dockerfile: Dockerfile
     image: product-info-service
     ports:
-      - 8082:8080
+      - "8082:8080"
 
   main-user-be:
     build:
       context: ./main-user-be
       dockerfile: Dockerfile
     image: main-user-be
+    depends_on:
+      - mongo
     ports:
-      - 8083:8080
+      - "8083:8080"
