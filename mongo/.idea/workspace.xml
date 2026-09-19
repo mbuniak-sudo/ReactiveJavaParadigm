@@ -5,64 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd514b86-d1a2-47d8-a897-67f3fc9594ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/Reactive_Paradigm_FOR_STUDENTS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/orders.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-search-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-search-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/db/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/db/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/db/ProductEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/db/ProductResourceRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/UsersApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/config/MdcContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/config/MdcContextLifter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/config/RequestIdFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/db/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/db/repo/UsersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/domain/EnrichedUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/domain/OrderProductInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/integration/OrderSearchServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/integration/ProductInfoSearchServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/integration/dto/OrderDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/integration/dto/ProductDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/java/com/griddynamics/reactive/course/userservice/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/test/java/com/griddynamics/reactive/course/userservice/controller/UserControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/test/java/com/griddynamics/reactive/course/userservice/integration/OrderSearchServiceClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/test/java/com/griddynamics/reactive/course/userservice/integration/ProductInfoSearchServiceClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../users-service/src/test/java/com/griddynamics/reactive/course/userservice/service/impl/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/controller/OrderSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/controller/OrderSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/resource/OrderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/resource/OrderResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/service/OrderSearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/service/OrderSearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/controller/ProductInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/controller/ProductInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/resource/ProductResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product-info-service/src/main/java/com/griddynamics/reactive/course/productinfoservice/resource/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +84,7 @@
       <updated>1788618272406</updated>
       <workItem from="1788618273573" duration="9792000" />
       <workItem from="1789154537116" duration="137000" />
-      <workItem from="1789154861480" duration="4568000" />
+      <workItem from="1789154861480" duration="5162000" />
     </task>
     <servers />
   </component>
