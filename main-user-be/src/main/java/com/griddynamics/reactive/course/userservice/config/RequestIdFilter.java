@@ -32,10 +32,9 @@ public class RequestIdFilter implements WebFilter {
                     .replace("-", Strings.EMPTY)
                     .substring(BEGIN_REQ_ID_INDEX, END_REQ_ID_INDEX);
         }
-        exchange.getRequest().getHeaders().set(REQUEST_ID_HEADER, requestIdHeader);
-
         final String headerValue = requestIdHeader;
 
-        return chain.filter(exchange).contextWrite(context -> context.put(REQUEST_ID, headerValue));
+        return chain.filter(exchange)
+                .contextWrite(context -> context.put(REQUEST_ID, headerValue));
     }
 }
