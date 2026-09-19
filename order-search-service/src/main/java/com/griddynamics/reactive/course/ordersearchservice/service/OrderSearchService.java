@@ -19,7 +19,7 @@ public class OrderSearchService {
     public Flux<Order> getOrdersByPhone(String phoneNumber) {
         if (StringUtils.isBlank(phoneNumber)) {
             return Flux.error(new RuntimeException("Phone number is empty"));
-            }
+        }
 
         return orderResource.getOrdersByPhone(phoneNumber)
                 .map(entity ->
