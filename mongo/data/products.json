@@ -1,0 +1,50 @@
+[
+  {
+    "id_": 0,
+    "productCode": "#101",
+    "productName": "Air Grill Jacobs",
+    "score": 100.99
+  },
+  {
+    "id_": 1,
+    "productCode": "#102",
+    "productName": "Smart Coffee Maker",
+    "score": 79.99
+  },
+  {
+    "id_": 2,
+    "productCode": "#103",
+    "productName": "Wireless Headphones",
+    "score": 149.50
+  },
+  {
+    "id_": 3,
+    "productCode": "#104",
+    "productName": "Electric Kettle",
+    "score": 45.99
+  },
+  {
+    "id_": 4,
+    "productCode": "#105",
+    "productName": "Robot Vacuum Cleaner",
+    "score": 299.99
+  },
+  {
+    "id_": 5,
+    "productCode": "#106",
+    "productName": "Digital Kitchen Scale",
+    "score": 29.95
+  },
+  {
+    "id_": 6,
+    "productCode": "#107",
+    "productName": "Bluetooth Speaker",
+    "score": 89.90
+  },
+  {
+    "id_": 7,
+    "productCode": "#108",
+    "productName": "Stainless Steel Blender",
+    "score": 119.99
+  }
+]

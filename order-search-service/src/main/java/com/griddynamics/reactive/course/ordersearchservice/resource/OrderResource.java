@@ -1,16 +1,22 @@
 package com.griddynamics.reactive.course.ordersearchservice.resource;
 
+import com.griddynamics.reactive.course.ordersearchservice.db.OrderRepository;
 import com.griddynamics.reactive.course.ordersearchservice.domain.Order;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
+import reactor.core.publisher.Flux;
 
 import java.util.List;
 
-@Repository
+@Service
+@RequiredArgsConstructor
 public class OrderResource {
+
+    private final OrderRepository repository;
+
+
     public List<Order> getOrdersByPhone(String phoneNumber) {
-        return List.of(new Order(phoneNumber, "Order_0", "3852"),
-                new Order(phoneNumber, "Order_1", "5256"),
-                new Order(phoneNumber, "Order_2", "7894"),
-                new Order(phoneNumber, "Order_3", "9822"));
+        return repository.findAllByPhoneNumber(phoneNumber);
     }
 }

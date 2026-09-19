@@ -1,23 +1,64 @@
-version: '3'
-
 services:
-
-  mongoimport:
-    image: mongo
-    volumes:
-      - ./mongo/data/users.json:/src/data/users.json
-    command: mongoimport --host mongo --username root --password pwd --db admin --collection users --file /src/data/users.json --jsonArray
 
   mongo:
     image: mongo
     restart: always
     ports:
-      - 27017:27017
+      - "27017:27017"
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: pwd
+
+  users-import:
+    image: mongo
     depends_on:
-      - mongoimport
+      - mongo
+    volumes:
+      - ./mongo/data/users.json:/src/data/users.json
+    command: >
+      mongoimport
+      --host mongo
+      --username root
+      --password pwd
+      --authenticationDatabase admin
+      --db reactive_paradigm
+      --collection users
+      --file /src/data/users.json
+      --jsonArray
+
+  products-import:
+    image: mongo
+    depends_on:
+      - mongo
+    volumes:
+      - ./mongo/data/products.json:/src/data/products.json
+    command: >
+      mongoimport
+      --host mongo
+      --username root
+      --password pwd
+      --authenticationDatabase admin
+      --db reactive_paradigm
+      --collection products
+      --file /src/data/products.json
+      --jsonArray
+
+  orders-import:
+    image: mongo
+    depends_on:
+      - mongo
+    volumes:
+      - ./mongo/data/orders.json:/src/data/orders.json
+    command: >
+      mongoimport
+      --host mongo
+      --username root
+      --password pwd
+      --authenticationDatabase admin
+      --db reactive_paradigm
+      --collection orders
+      --file /src/data/orders.json
+      --jsonArray
 
   order-search-service:
     build:
