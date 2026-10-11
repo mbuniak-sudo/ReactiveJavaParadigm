@@ -23,7 +23,7 @@ public class OrderSearchServiceClient {
 
     public OrderSearchServiceClient(
             WebClient.Builder webClientBuilder,
-            @Value("${order-search-service.base-url:https://localhost:8081}") String baseUrl) {
+            @Value("${order-search-service.base-url:http://order-search-service:8080}") String baseUrl) {
         this.webClient = webClientBuilder
                 .baseUrl(baseUrl)
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_NDJSON_VALUE)

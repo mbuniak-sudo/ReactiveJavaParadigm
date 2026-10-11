@@ -23,7 +23,7 @@ public class ProductInfoSearchServiceClient {
 
     public ProductInfoSearchServiceClient(
             WebClient.Builder webClientBuilder,
-            @Value("${product-search-service.base-url:https://localhost:8082}") String baseUrl) {
+            @Value("${product-search-service.base-url:http://product-info-service:8080}") String baseUrl) {
         webClient = webClientBuilder
                 .baseUrl(baseUrl)
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_NDJSON_VALUE)

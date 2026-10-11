@@ -1,4 +1,4 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://root:pwd@localhost:27017/reactive_paradigm?authSource=admin
+      uri: mongodb://root:pwd@mongo:27017/reactive_paradigm?authSource=admin

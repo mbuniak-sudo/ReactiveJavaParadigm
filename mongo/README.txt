@@ -25,3 +25,7 @@ use reactive_paradigm  [select proper db name, which corresponds to defined dock
 show collections  [list all existing tables in the db]
 
 db.{collection}.find()  [list all records from mentioned collection]
+
+mongodb://root:pwd@localhost:27017/reactive_paradigm?authSource=admin
+
+http://localhost:8083/userService/users/2

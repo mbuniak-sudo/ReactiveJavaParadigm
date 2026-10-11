@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bd514b86-d1a2-47d8-a897-67f3fc9594ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main-user-be/src/main/java/com/griddynamics/reactive/course/userservice/db/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../main-user-be/src/main/java/com/griddynamics/reactive/course/userservice/db/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main-user-be/src/main/java/com/griddynamics/reactive/course/userservice/integration/OrderSearchServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../main-user-be/src/main/java/com/griddynamics/reactive/course/userservice/integration/OrderSearchServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main-user-be/src/main/java/com/griddynamics/reactive/course/userservice/integration/ProductInfoSearchServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../main-user-be/src/main/java/com/griddynamics/reactive/course/userservice/integration/ProductInfoSearchServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main-user-be/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../main-user-be/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,7 @@
       <workItem from="1790354802687" duration="14000" />
       <workItem from="1791722066905" duration="13000" />
       <workItem from="1791722086100" duration="23000" />
-      <workItem from="1791722152284" duration="4338000" />
+      <workItem from="1791722152284" duration="5518000" />
     </task>
     <servers />
   </component>
