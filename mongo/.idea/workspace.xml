@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd514b86-d1a2-47d8-a897-67f3fc9594ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main-user-be/src/main/java/com/griddynamics/reactive/course/userservice/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../main-user-be/src/main/java/com/griddynamics/reactive/course/userservice/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../main-user-be/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../main-user-be/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/orders.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/controller/OrderSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/controller/OrderSearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/db/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/db/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/db/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/db/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/resource/OrderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/java/com/griddynamics/reactive/course/ordersearchservice/resource/OrderResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../order-search-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../order-search-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +31,12 @@
     &quot;assignee&quot;: &quot;mbuniak-sudo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mbuniak-sudo/ReactiveJavaParadigm.git",
-    "accountId": "ec8f168f-6a4f-411c-b597-a16c00f4696d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mbuniak-sudo/ReactiveJavaParadigm.git&quot;,
+    &quot;accountId&quot;: &quot;ec8f168f-6a4f-411c-b597-a16c00f4696d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -37,24 +45,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mbuniak/IdeaProjects/Reactive_Paradigm_FOR_STUDENTS/mongo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mbuniak/IdeaProjects/Reactive_Paradigm_FOR_STUDENTS/mongo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="mongo" />
@@ -86,7 +94,12 @@
       <updated>1788618272406</updated>
       <workItem from="1788618273573" duration="9792000" />
       <workItem from="1789154537116" duration="137000" />
-      <workItem from="1789154861480" duration="9897000" />
+      <workItem from="1789154861480" duration="10220000" />
+      <workItem from="1790289919497" duration="423000" />
+      <workItem from="1790354802687" duration="14000" />
+      <workItem from="1791722066905" duration="13000" />
+      <workItem from="1791722086100" duration="23000" />
+      <workItem from="1791722152284" duration="2832000" />
     </task>
     <servers />
   </component>

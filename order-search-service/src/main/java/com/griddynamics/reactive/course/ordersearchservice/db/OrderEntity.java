@@ -7,13 +7,15 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document
+@Document(collection = "orders")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class OrderEntity {
-
     @Id
-    private String orderNumber;
-
+    private Long _id;
     private String phoneNumber;
     private String productCode;
+
+    public String getOrderNumber() {
+        return String.valueOf(_id);
+    }
 }

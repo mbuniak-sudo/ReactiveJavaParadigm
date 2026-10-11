@@ -24,16 +24,21 @@ public class UserServiceImpl implements UserService {
     @Override
     public Flux<OrderProductInfo> getBy(Long id) {
         return repository.findById(id)
+                .log()
                 .flatMapMany(userEntity -> orderSearchServiceClient.getOrders(userEntity.getPhone())
+                        .log()
                         .map(orderDto -> new EnrichedUserInfo(userEntity, orderDto)))
+                .log()
                 .map(e -> OrderProductInfo.builder()
                         .userName(e.getUser().getName())
                         .phoneNumber(e.getUser().getPhone())
                         .orderNumber(e.getOrder().getOrderNumber())
                         .productCode(e.getOrder().getProductCode())
                         .build())
+                .log()
                 .flatMap(orderProductInfo ->
                         productClient.getProductWithHighestScore(orderProductInfo.getProductCode())
+                                .log()
                                 .map(productDto -> OrderProductInfo.builder()
                                         .userName(orderProductInfo.getUserName())
                                         .phoneNumber(orderProductInfo.getPhoneNumber())
@@ -41,6 +46,7 @@ public class UserServiceImpl implements UserService {
                                         .productCode(orderProductInfo.getProductCode())
                                         .productName(productDto.getProductName())
                                         .score(BigDecimal.valueOf(productDto.getScore()))
-                                        .build()));
+                                        .build()))
+                .log();
     }
 }

@@ -25,6 +25,7 @@ services:
       --collection users
       --file /src/data/users.json
       --jsonArray
+      --drop
 
   products-import:
     image: mongo
@@ -42,6 +43,7 @@ services:
       --collection products
       --file /src/data/products.json
       --jsonArray
+      --drop
 
   orders-import:
     image: mongo
@@ -59,6 +61,7 @@ services:
       --collection orders
       --file /src/data/orders.json
       --jsonArray
+      --drop
 
 
   order-search-service:

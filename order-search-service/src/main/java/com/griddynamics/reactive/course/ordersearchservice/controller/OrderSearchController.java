@@ -4,7 +4,10 @@ import com.griddynamics.reactive.course.ordersearchservice.domain.Order;
 import com.griddynamics.reactive.course.ordersearchservice.service.OrderSearchService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 
 @RestController
