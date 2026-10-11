@@ -64,6 +64,8 @@ services:
       --drop
 
 
+
+
   order-search-service:
     build:
       context: ./order-search-service

@@ -7,7 +7,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document
+@Document(collection = "users")
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class UserEntity {
     @Id
